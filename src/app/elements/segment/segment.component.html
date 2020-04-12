@@ -1,0 +1,15 @@
+<div class="ui placeholder segment">
+  <div class="ui icon header">
+    <!--Element select-->
+    <ng-content select="header"></ng-content>
+
+    <!--Attribute select-->
+    <ng-content select="[divText]"></ng-content>
+
+    <!--Class select-->
+    <ng-content select=".span-text"></ng-content>
+  </div>
+
+  <!-- Default Select-->
+  <ng-content></ng-content>
+</div>
